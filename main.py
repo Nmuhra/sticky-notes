@@ -14,4 +14,12 @@ b1.pack(in_ = top, side=LEFT)
 b2 = Button(canvas, text="save", bg = "lightblue")
 b2.pack(in_ = top, side=LEFT)
 
+b3 = Button(canvas, text="clear", bg = "lightblue")
+b3.pack(in_ = top, side=LEFT)
+
+b4 = Button(canvas, text="exit", bg = "lightblue")
+b4.pack(in_ = top, side=LEFT)
+
+entry = Text(canvas, bg = "green", font = ("arial", 12))
+entry.pack(padx = 10,pady = 10)
 canvas.mainloop()
